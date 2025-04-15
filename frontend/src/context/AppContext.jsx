@@ -77,5 +77,4 @@ const AppContextProvider = (props) => {
     )
 
 }
-// i love deepali
 export default AppContextProvider
