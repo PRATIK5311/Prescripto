@@ -56,7 +56,7 @@ const MyProfile = () => {
                     </div>
                     <input onChange={(e) => setImage(e.target.files[0])} type="file" id="image" hidden />
                 </label>
-                : <img className='w-36 rounded' src={userData.image} alt="" />
+                : <img className='w-36 rounded' src={userData?.image} alt="" />
             }
 
             {isEdit
